@@ -24,7 +24,7 @@ body {
   background-size: cover;
   height: 560px;
   width: 1000px;
-  flex-direction: block;
+  display: block;
   margin: auto;
   margin-top: 8vh;
   position: relative;
