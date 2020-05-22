@@ -57,7 +57,7 @@ console.log(karolinaNaHavaj(osoba2))
 
 // mimo domaci ukol - jen takove zkouseni si...
 
-// kliknutim na tlacitko, prida hlasku v bubline podle stavu penez
+// kliknutim na tlacitko prida hlasku v bubline podle stavu penez
 
 const bubliny = () => {
     const bublina1 = document.querySelector('.bublina1')
@@ -74,7 +74,7 @@ const bubliny = () => {
     }
 }
 const tlacitko = document.querySelector('.tlacitko');
-addEventListener('click', bubliny);
+tlacitko.addEventListener('click', bubliny);
 
 
 // na kliknuti kamkoliv spusti a stopne audio
